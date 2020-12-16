@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://rainbow_mock_img/rainbow_mock_colotto_kun.png" type="Texture" id=1]
+[ext_resource path="res://Yorishiro.gd" type="Script" id=2]
+
+
+[node name="Yorishiro" type="TextureRect"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -244.0
+margin_top = -300.0
+margin_right = 244.0
+margin_bottom = 414.0
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
