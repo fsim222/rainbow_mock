@@ -23,6 +23,9 @@ config/icon="res://icon.png"
 
 window/size/width=2160
 window/size/height=1080
+window/handheld/orientation="reverse_portrait"
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
 
 [rendering]
 
